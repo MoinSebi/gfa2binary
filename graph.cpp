@@ -63,6 +63,7 @@ vector<int> graph::getIds() {
     sort(uni.begin(), uni.end() );
     uni.erase( unique( uni.begin(), uni.end() ), uni.end() );
     cout << uni.size() << endl;
+    cout << uni.size() << endl; 
     return uni;
 
 }
