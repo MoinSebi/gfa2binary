@@ -3,4 +3,4 @@ project(gfa2binary)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(gfa2binary main.cpp path.cpp path.h node.cpp node.h graph.cpp graph.h)
+add_executable(gfa2binary src/main.cpp src/path.cpp src/path.h src/node.cpp src/node.h src/graph.cpp src/graph.h)
